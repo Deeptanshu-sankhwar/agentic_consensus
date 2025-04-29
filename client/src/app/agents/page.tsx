@@ -123,7 +123,7 @@ export default function AgentsPage() {
                       <h3 className="text-xl font-semibold mb-2">
                         {agent.name}
                       </h3>
-                      <div className="grid grid-cols-2 gap-y-1 text-sm">
+                      {/* <div className="grid grid-cols-2 gap-y-1 text-sm">
                         <div className="font-semibold text-gray-400">Role</div>
                         <div className="text-gray-200">{agent.role}</div>
                         <div className="font-semibold text-gray-400">Traits</div>
@@ -134,7 +134,7 @@ export default function AgentsPage() {
                         <div className="text-gray-200">{agent.influences.join(", ")}</div>
                         <div className="font-semibold text-gray-400">Mood</div>
                         <div className="text-gray-200">{agent.mood}</div>
-                      </div>
+                      </div> */}
                     </div>
                   ))}
                 </div>
