@@ -39,7 +39,7 @@ func NewApplication(chainID string, selfValidatorAddr string) types.Application 
 // Info returns basic information about the application
 func (app *Application) Info(req types.RequestInfo) types.ResponseInfo {
 	return types.ResponseInfo{
-		Data:             "Agentic Consensus L2",
+		Data:             "Agentic Consensus",
 		Version:          "1.0.0",
 		AppVersion:       1,
 		LastBlockHeight:  0,

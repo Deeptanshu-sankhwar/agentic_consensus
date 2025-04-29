@@ -34,7 +34,6 @@ export default function AgentsPage() {
       <header className="p-8 pl-32 pb-0 text-lg">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-[#fd7653] font-bold">AGENTIC CONSENSUS</span>
-          <span className="text-white font-bold">L2</span>
         </Link>
       </header>
 
@@ -91,7 +90,7 @@ export default function AgentsPage() {
 
               {agents.length >= requiredAgents && (
                 <Link
-                  href={`/${chainId}/forum`}
+                  href={`/mainnet/forum`}
                   className="mb-6 inline-flex items-center bg-gradient-to-r from-green-600 to-green-800 hover:opacity-90 text-gray-100 font-medium py-3 px-6 rounded-lg transition transform hover:scale-105 duration-200"
                 >
                   <FiCheck className="mr-2" /> Start Chain
