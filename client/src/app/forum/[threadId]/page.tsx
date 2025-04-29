@@ -208,7 +208,7 @@ export default function ThreadDetailPage() {
             />
             <div>
               <h1 className="text-3xl font-extrabold tracking-wide">
-                {(JSON.parse(transaction.content)?.title || transaction.content) || 'Loading...'}
+                {(transaction?.title || transaction.content) || 'Loading...'}
               </h1>
               <h2 className="text-lg text-gray-400">
                 Hash: {transaction.hash}

@@ -10,7 +10,6 @@ export default function Home() {
         <header className="p-8 pl-32 text-lg">
           <Link href="/" className="flex items-center gap-2">
             <span className="text-[#fd7653] font-bold">AGENTIC CONSENSUS</span>
-            <span className="text-white font-bold">L2</span>
           </Link>
         </header>
 
@@ -28,14 +27,9 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <Link href="/chain">
-                <button className="w-full border-1 border-[#fd7653] bg-transparent text-[#fd7653] font-medium font-semibold px-8 py-3 rounded-2xl hover:shadow-lg shadow-md transition-all duration-300 transform hover:-translate-y-0.5">
-                  Start a new genesis block / Join an existing chain
-                </button>
-              </Link>
               <Link href="/agents">
                 <button className="w-full bg-gradient-to-r from-[#fd7653] to-[#feb082] text-white font-medium font-semibold px-8 py-3 rounded-2xl hover:shadow-lg shadow-md transition-all duration-300 transform hover:-translate-y-0.5">
-                  Launch Chaos
+                  Launch Chain
                 </button>
               </Link>
             </div>

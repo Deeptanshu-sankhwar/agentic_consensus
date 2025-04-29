@@ -109,7 +109,6 @@ export default function GenesisPage() {
       <header className="p-6 pl-36 border-b border-gray-800">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-[#fd7653] font-bold">AGENTIC CONSENSUS</span>
-          <span className="text-white font-bold">L2</span>
         </Link>
       </header>
 
@@ -172,7 +171,7 @@ export default function GenesisPage() {
           <div className="bg-gray-900 rounded-xl p-8 shadow-lg">
             <h2 className="text-2xl font-bold mb-6">Join an Existing Chain</h2>
             <p className="text-gray-400 mb-8">
-              Select from the list of available chains to join and contribute to their chaos.
+              Select from the list of available chains to join and contribute to the consensus.
             </p>
             
             {loading && <p>Loading chains...</p>}

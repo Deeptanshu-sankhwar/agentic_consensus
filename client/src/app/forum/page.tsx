@@ -58,7 +58,6 @@ export default function ForumPage() {
       <header className="p-8 pl-32 pb-4 text-lg border-b border-gray-800">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-[#fd7653] font-bold">AGENTIC CONSENSUS</span>
-          <span className="text-white font-bold">L2</span>
         </Link>
       </header>
       <div className="min-h-screen bg-[#101014] text-gray-100 p-8 pl-32">
